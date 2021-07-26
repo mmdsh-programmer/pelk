@@ -1,0 +1,156 @@
+.pelk-contact-body {
+  position: relative;
+  top: 0;
+  .contact-info {
+    padding-top: 141px;
+    position: relative;
+    .background-image {
+      position: absolute;
+      right: 0;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .background-highlight{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(176,190,197,0.9);
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+    .contact-title {
+      height: 48px;
+      margin-bottom: 42px;
+      font-family: $fatYekanBakh;
+      font-size: 32px;
+      color: #ffffff;
+    }
+    .info-detail {
+      dt {
+        height: 27px;
+        font-family: $regularYekanBakh;
+        font-size: 18px;
+        color: $textColor;
+      }
+      dd {
+        height: 37px;
+        margin-bottom: 15px;
+        font-family: $regularYekanBakh;
+        font-size: 25px;
+        color: $textColor;
+        a {
+          color: $textColor;
+        }
+        address {
+          font-style: normal;
+        }
+      }
+      dd.ltr {
+        direction: ltr;
+        text-align: right;
+      }
+    }
+  }
+
+  .social-icons-title {
+    display: block;
+    height: 27px;
+    margin-bottom: 5px;
+    font-family: $regularYekanBakh;
+    font-size: 18px;
+    color: $textColor;
+  }
+
+  .icons {
+    margin-bottom: 51px;
+    a {
+      width: 30px;
+      height: 30px;
+      margin-left: 30px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    a.youtube {
+      width: 43px;
+      height: 30px;
+    }
+  }
+
+  .contact-map {
+    max-width: 489px;
+    height: 469px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .contact-form-container {
+    background-color: #f4f5f6;
+  }
+  .contact-form {
+    width: 100%;
+    fieldset {
+      border: none;
+      margin-top: 41px;
+      legend {
+        height: 30px;
+        font-family: $regularYekanBakh;
+        font-size: 20px;
+        color: $textColor;
+      }
+      label {
+        display: block;
+        height: 24px;
+        margin: 16px 0 5px 0;
+        font-family: $regularYekanBakh;
+        font-size: 16px;
+        color: $textColor;
+      }
+      input,
+      textarea {
+        &::placeholder {
+          color: #90a4ae;
+        }
+        font-size: 14px;
+        font-family: $regularYekanBakh;
+        width: 445px;
+        max-width: 445px;
+        height: 45px;
+        padding: 12px 10px 12px 10px;
+        border-radius: 4px;
+        border: solid 1px #cfd8dc;
+        background-color: #ffffff;
+      }
+      textarea {
+        width: 100%;
+        max-width: 920px;
+        height: 121px;
+      }
+      input[type="submit"] {
+        width: 127px;
+        height: 45px;
+        margin: 15px 0 111px 0;
+        padding: 12px 29px;
+        border-radius: 4px;
+        background-color: #006ab3;
+        font-size: 14px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .column {
+        margin-left: 30px;
+      }
+    }
+  }
+}

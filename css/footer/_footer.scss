@@ -1,0 +1,120 @@
+.pelk-footer {
+  width: 100%;
+  background-color: $textColor;
+  padding-top: 46px;
+  .footer-title {
+    height: 51px;
+    font-family: $fatYekanBakh;
+    font-size: 34px;
+    text-align: center;
+    color: #eceff1;
+    margin-bottom: 10px;
+  }
+  .call-us {
+    display: block;
+    height: 36px;
+    font-family: $regularYekanBakh;
+    font-size: 24px;
+    text-align: center;
+    color: #b0bec5;
+    margin-bottom: 36px;
+  }
+  .call-info {
+    padding-bottom: 36px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #37474f;
+    a {
+      margin: 20px;
+      direction: ltr;
+      height: 57px;
+      font-family: $regularYekanBakh;
+      font-size: 38px;
+      color: #b0bec5;
+    }
+  }
+  .social-icons {
+    .social-icons-title {
+      display: block;
+      height: 27px;
+      font-family: $fatYekanBakh;
+      font-size: 18px;
+      color: #b0bec5;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .icons {
+      margin-bottom: 29px;
+      a {
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+        transition: all 0.4s;
+        &:hover {
+          transform: rotate(15deg);
+        }
+      }
+      img {
+        width: 30px;
+        height: 30px;
+        margin-left: 30px;
+      }
+    }
+  }
+  .copyright,
+  .bottom-menu {
+    width: 100%;
+    background-color: #212f35;
+  }
+
+  .copyright {
+    padding-bottom: 10px;
+    span {
+      height: 18px;
+      margin: 8px 42px 0 auto;
+      font-family: $regularYekanBakh;
+      font-size: 12px;
+      color: #546e7a;
+    }
+    .navbar {
+      margin-right: auto;
+      margin-top: 6px;
+      .nav-item {
+        list-style-type: none;
+        margin: 22px 0 8px 30px;
+      }
+      .nav-link {
+        height: 24px;
+        font-family: $regularYekanBakh;
+        font-size: 16px;
+        color: #90a4ae;
+      }
+    }
+  }
+  .bottom-menu {
+    padding-top: 14px;
+    .logo {
+      img {
+        width: 100px;
+        height: auto;
+      }
+    }
+    .navbar {
+      margin-right: auto;
+      margin-top: 6px;
+      .nav-item {
+        list-style-type: none;
+        margin: 22px 0 8px 30px;
+      }
+      .nav-link {
+        height: 24px;
+        font-family: $regularYekanBakh;
+        font-size: 16px;
+        color: #90a4ae;
+        transition: all 0.4s;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

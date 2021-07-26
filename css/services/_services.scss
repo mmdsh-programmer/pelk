@@ -1,0 +1,391 @@
+.pelk-services-body {
+  .intro-title {
+    margin: 149px 0 30px 0;
+    font-family: $fatYekanBakh;
+    font-size: 52px;
+    text-align: center;
+    color: $textColor;
+  }
+  .services-banner {
+    width: 100%;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      filter: blur(10px);
+    }
+    .banner-title {
+      max-width: 553px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: $fatYekanBakh;
+      font-size: 40px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .services-tab-container {
+    .tab-data-container {
+      padding: 59px 52px 63px 50px;
+      border-radius: 30px;
+      box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+      background-color: #ffffff;
+      margin-bottom: 78px;
+    }
+    .services-description {
+      max-width: 739px;
+      margin: 78px auto 78px auto;
+      font-size: 18px;
+      line-height: 1.89;
+      color: $textColor;
+    }
+    .tab-nav {
+      .nav-indicator {
+        margin: 0 30px 20px;
+        font-family: $fatYekanBakh;
+        font-size: 19px;
+        color: #546e7a;
+      }
+      .active {
+        color: $activeMenu;
+      }
+    }
+    .tab-dots {
+      margin-top: 58px;
+      .dot {
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        background-color: #d8d8d8;
+        display: block;
+        border-radius: 70px;
+      }
+      .active {
+        background-color: $activeMenu;
+      }
+    }
+    .tab-data {
+      width: 100%;
+      display: none;
+      animation: fadeEffect 1s;
+      .data-title {
+        width: 100%;
+        text-align: right;
+        margin: 0 0 15px 0;
+        font-family: $fatYekanBakh;
+        font-size: 19px;
+        color: $activeMenu;
+      }
+      .data-description {
+        max-width: 650px;
+        margin: 0 0 60px 0;
+        font-size: 18px;
+        line-height: 1.89;
+        color: $textColor;
+      }
+      .data-link {
+        height: 47px;
+        width: 179px;
+        margin: 0 0 6px 0;
+        padding: 11px 20px 9px 19px;
+        border: solid 2px $activeMenu;
+        display: flex;
+        align-items: center;
+        &:hover {
+          .icon-holder .icon-org {
+            right: 20px;
+          }
+          .icon-holder .icon-hover {
+            right: 0;
+          }
+        }
+        .icon-holder {
+          width: 20px;
+          height: 18px;
+          position: relative;
+          overflow: hidden;
+          margin-right: auto;
+          .icon-org {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 20px;
+            height: 18px;
+            transition: all 0.4s;
+            transform: rotate(90deg);
+          }
+          .icon-hover {
+            position: absolute;
+            right: -20px;
+            top: 0;
+            width: 20px;
+            height: 18px;
+            transition: all 0.4s;
+            transform: rotate(90deg);
+          }
+        }
+        span {
+          font-size: 18px;
+          font-weight: bold;
+          color: $activeMenu;
+        }
+        img {
+          vertical-align: middle;
+          width: 20px;
+          height: 18px;
+          margin: 0 30px 0 0;
+          object-fit: contain;
+        }
+      }
+      .data-image {
+        max-width: 367px;
+        min-width: 260px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .services-creative {
+    margin-bottom: 78px;
+    .creative-title {
+      font-family: $fatYekanBakh;
+      font-size: 26px;
+      color: $textColor;
+    }
+    .creative-description {
+      max-width: 540px;
+      margin: 20px 0 20px 0;
+      font-size: 18px;
+      line-height: 1.89;
+      color: $textColor;
+    }
+    .creative-blank {
+      width: 585px;
+      height: 434px;
+      border-radius: 30px;
+      background-color: #ffffff;
+    }
+  }
+  .services-chart {
+    .chart-title {
+      margin: 0 0 73px 0;
+      font-family: $fatYekanBakh;
+      font-size: 26px;
+      color: $textColor;
+    }
+    .chart-holder {
+      width: 100%;
+      margin-bottom: 78px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .chart-mobile-title {
+      margin: 23px 24px 16px 0;
+      font-family: YekanBakh-Fat;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #010048;
+      display: none;
+    }
+    .chart-list {
+      list-style-type: none;
+      display: none;
+      margin-bottom: 50px;
+      li {
+        font-size: 16px;
+        margin: 0 24px 0 0;
+        color: $textColor;
+      }
+    }
+  }
+  .services-flowchart {
+    margin-bottom: 130px;
+    .flowchart-title {
+      font-family: $fatYekanBakh;
+      font-size: 26px;
+      color: $textColor;
+    }
+    .circle {
+      width: 130px;
+      height: 130px;
+      margin: 35px 0 35px 0;
+      border: solid 1px #b0bec5;
+      background-color: #ffffff;
+      border-radius: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: none;
+      .level {
+        font-weight: bold;
+        text-align: center;
+        font-size: 13px;
+        color: #90a4ae;
+      }
+      .title {
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+        color: $textColor;
+        max-width: 100px;
+      }
+    }
+    .rectangle {
+      width: 175px;
+      height: 140px;
+      border: dashed 1px #b0bec5;
+      border-top: none;
+    }
+    .active {
+      .title,
+      .level {
+        color: #ffffff;
+      }
+      background-color: $activeMenu;
+    }
+    .circle-container {
+      position: relative;
+      align-items: center;
+      justify-content: space-between;
+      .line {
+        position: absolute;
+        width: 1050px;
+        max-width: 1050px;
+        height: 1px;
+        border: solid 1px #b0bec5;
+        z-index: -1;
+      }
+    }
+    .rectangle-container {
+      position: absolute;
+      justify-content: flex-end;
+      left: 60px;
+      top: 140px;
+      z-index: -1;
+      span {
+        position: absolute;
+        bottom: -19px;
+        left: 230px;
+        justify-self: center;
+        padding: 8px 9px;
+        border-radius: 18px;
+        border: solid 1px #b0bec5;
+        background-color: #ffffff;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        color: #546e7a;
+      }
+    }
+    .flowchart-container {
+      position: relative;
+    }
+  }
+  .services-comments {
+    background-color: #ffffff;
+    padding-top: 71px;
+    padding-bottom: 63px;
+    .comment-body {
+      display: none;
+      animation: fadeEffect 1s;
+    }
+    .comments-title {
+      margin: 0 0 55px 0;
+      font-family: $fatYekanBakh;
+      font-size: 26px;
+      color: $textColor;
+    }
+    .comment-image {
+      width: 126px;
+      height: 126px;
+      margin: 8px 0 45px 20px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex: none;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .comment-user {
+      .user-name {
+        font-size: 24px;
+        font-weight: bold;
+        color: $textColor;
+        margin-top: 6px;
+        margin: 5px 0 0 6px;
+        white-space: nowrap;
+      }
+      .user-job {
+        font-size: 16px;
+        color: $textColor;
+      }
+    }
+    .comment-text {
+      display: flex;
+      flex-direction: column;
+      margin-right: 142px;
+      position: relative;
+      img {
+        position: absolute;
+        top: -30px;
+        width: 20px;
+        height: 17px;
+        object-fit: cover;
+      }
+      .inner-comment-text {
+        max-width: 702px;
+        font-size: 20px;
+        line-height: 2.2;
+        text-align: right;
+        color: $textColor;
+      }
+    }
+    .comments-nav {
+      .arrow {
+        cursor: pointer;
+      }
+      .arrow-left {
+        margin-right: 86px;
+      }
+      .arrow img {
+        width: 20px;
+        height: 18px;
+      }
+    }
+  }
+  .call-pelk {
+    margin: 78px 0 79px 0;
+    .call-text {
+      margin-top: 11px;
+    }
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

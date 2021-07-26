@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  max-width: 545px;
+  height: 588px;
+  margin-bottom: 202px;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-description {
+  width: 365px;
+  min-height: 84px;
+  padding: 13px;
+  box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -42px;
+  .card-title {
+    font-family: $fatYekanBakh;
+    font-size: 22px;
+    color: $textColor;
+    margin-bottom: 2px;
+  }
+  .card-post-title {
+    font-size: 16px;
+    color: $textColor;
+  }
+}

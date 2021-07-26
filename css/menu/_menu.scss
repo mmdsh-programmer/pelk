@@ -1,0 +1,126 @@
+.pelk-menu {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  min-width: 100%;
+  background-color: #ede7f6;
+  z-index: 999;
+  .logo-row {
+    opacity: 0;
+    transform: translate3d(0, -50px, 0) skewY(-5deg);
+    margin-top: 60px;
+    .close-menu {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      cursor: pointer;
+      &:hover {
+        g {
+          fill: #7f10e9;
+          transform: rotate(180deg);
+        }
+      }
+      g {
+        fill: #90a4ae;
+        transform-origin: 50% 50%;
+        transform: none;
+        transition: transform 0.4s cubic-bezier(0.39, 0.01, 0.35, 1),
+          fill 0.4s cubic-bezier(0.39, 0.01, 0.35, 1);
+      }
+    }
+  }
+  .logo-container {
+    .menu-logo {
+      width: 120px;
+      height: auto;
+      margin: 0 0 4px 14px;
+    }
+    .logo-name {
+      margin: 5px 0 0 0;
+      height: 45px;
+      font-size: 30px;
+      font-weight: bold;
+      color: $textColor;
+    }
+    .logo-description {
+      height: 33px;
+      font-size: 22px;
+      color: $textColor;
+    }
+  }
+  .main-menu-nav {
+    margin-top: 60px;
+    opacity: 0;
+    transform: translate3d(0, -50px, 0) skewY(-5deg);
+    .navbar {
+      .nav-item {
+        list-style-type: none;
+        margin-bottom: 40px;
+      }
+      .nav-link {
+        height: 60px;
+        font-size: 40px;
+        color: $textColor;
+        transition: font-weight 0.4s cubic-bezier(0.39, 0.01, 0.35, 1),
+          color 0.4s cubic-bezier(0.39, 0.01, 0.35, 1);
+        &:hover {
+          font-weight: 1000;
+          color: #7f10e9;
+        }
+      }
+      .active {
+        .nav-link {
+          font-family: $fatYekanBakh;
+          color: #7f10e9;
+        }
+        &::after {
+          content: "";
+          background-image: url(../images/left-arrow-menu.svg);
+          width: 42px;
+          height: 37px;
+          vertical-align: middle;
+          margin-right: 60px;
+          display: inline-block;
+          background-size: cover;
+        }
+      }
+    }
+  }
+  .social-icons {
+    opacity: 0;
+    transform: translate3d(0, -50px, 0) skewY(-5deg);
+    margin-top: 79px;
+    .icons {
+      a {
+        transition: all 0.4s;
+        width: 30px;
+        height: 30px;
+        margin: 0 0 0 30px;
+        &:hover {
+          transform: rotate(25deg);
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    a {
+      height: 45px;
+      margin: 0 0 5px 0;
+      font-size: 30px;
+      text-align: right;
+      color: #455a64;
+      display: block;
+    }
+    .phone {
+      direction: ltr;
+      margin-top: 24px;
+    }
+  }
+}

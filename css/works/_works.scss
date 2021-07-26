@@ -1,0 +1,204 @@
+.pelk-works-body {
+  margin-top: 133px;
+  .intro-title {
+    font-family: $fatYekanBakh;
+    font-size: 52px;
+    color: $textColor;
+    margin-bottom: 5px;
+    height: 78px;
+  }
+  .intro-post-title {
+    font-size: 30px;
+    color: $textColor;
+    margin-bottom: 35px;
+    height: 45px;
+  }
+  .intro-description {
+    font-size: 20px;
+    color: $textColor;
+    max-width: 677px;
+  }
+  .intro-description.has-margin{
+    margin-top: 20px;
+  }
+  .work-container {
+    margin-top: 91px;
+    .last {
+      .banner {
+        margin-bottom: 112px;
+      }
+    }
+    .banner {
+      position: relative;
+      width: 100%;
+      margin-bottom: 160px;
+    }
+    .banner.inner-banner{
+      margin-bottom: 0 !important;
+    }
+    .banner-image {
+      width: 1035px;
+      height: 539px;
+    }
+  }
+  .banner-image {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .banner-description {
+    max-width: 365px;
+    height: 435px;
+    padding: 32px 40px 32px 45px;
+    background-color: #ffffff;
+    position: absolute;
+    .banner-title {
+      font-family: $fatYekanBakh;
+      font-size: 22px;
+      color: $textColor;
+      min-height: 33px;
+      margin-bottom: 2px;
+    }
+    .banner-post-title {
+      font-size: 16px;
+      color: $textColor;
+      height: 24px;
+      margin-bottom: 30px;
+    }
+    .banner-text {
+      font-size: 18px;
+      line-height: 1.89;
+      color: $textColor;
+    }
+  }
+  .pre-quote {
+    width: 100%;
+    overflow: hidden;
+    max-width: 785px;
+    margin-bottom: 39px;
+    .line {
+      width: 610px;
+      height: 1px;
+      border: solid 1px #90a4ae;
+      margin-right: 132px;
+    }
+    .quote-icon {
+      height: 26px;
+      img {
+        width: 30px;
+        height: 26px;
+      }
+    }
+  }
+  .quote {
+    margin-bottom: 160px;
+    h3 {
+      max-width: 785px;
+      font-family: $regularYekanBakh;
+      font-size: 28px;
+      line-height: 1.57;
+      color: $textColor;
+    }
+  }
+  .navigation {
+    margin-bottom: 112px;
+    .navigator {
+      img {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+      }
+      span {
+        font-family: $regularYekanBakh;
+        font-size: 20px;
+        font-weight: bold;
+        color: $textColor;
+      }
+    }
+    .navigate-next {
+      margin-left: 147px;
+      a {
+        display: flex;
+        align-items: center;
+      }
+      &:hover {
+        .icon-holder .icon-org {
+          left: 22px;
+        }
+        .icon-holder .icon-hover {
+          left: 0;
+        }
+      }
+      .icon-holder {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        overflow: hidden;
+        .icon-org {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 22px;
+          height: 22px;
+          transition: all 0.4s;
+          transform: rotate(-90deg);
+        }
+        .icon-hover {
+          position: absolute;
+          left: -22px;
+          top: 0;
+          width: 22px;
+          height: 22px;
+          transition: all 0.4s;
+          transform: rotate(-90deg);
+        }
+      }
+      span {
+        margin-right: 15px;
+      }
+    }
+    .navigate-pre {
+      a {
+        display: flex;
+        align-items: center;
+      }
+      &:hover {
+        .icon-holder .icon-org {
+          right: 22px;
+        }
+        .icon-holder .icon-hover {
+          right: 0;
+        }
+      }
+      .icon-holder {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        overflow: hidden;
+        .icon-org {
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 22px;
+          height: 22px;
+          transition: all 0.4s;
+          transform: rotate(90deg);
+        }
+        .icon-hover {
+          position: absolute;
+          right: -22px;
+          top: 0;
+          width: 22px;
+          height: 22px;
+          transition: all 0.4s;
+          transform: rotate(90deg);
+        }
+      }
+      span {
+        margin-left: 15px;
+      }
+    }
+  }
+}

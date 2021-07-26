@@ -1,0 +1,903 @@
+@media (min-width: 576px) {
+  .pelk-services-body .services-flowchart .rectangle-container {
+    right: 50%;
+  }
+
+  .pelk-services-body .services-creative .row {
+    align-items: flex-start;
+  }
+
+  .pelk-services-body .services-creative .creative-blank {
+    margin-right: 45px;
+  }
+
+  .pelk-services-body .services-tab-container .tab-data {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-banner .about-text {
+    margin-left: 15px;
+  }
+
+  //------------------------card--------------------------//
+  .pelk-body .card-container {
+    grid-template-columns: repeat(2, minmax(270px, 50%));
+  }
+
+  .magic-works .card:nth-child(even) {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1050px) {
+  .pelk-services-body .services-flowchart .rectangle-container {
+    right: 0;
+  }
+
+  .pelk-services-body .services-flowchart .circle-container .line {
+    width: 1023px;
+  }
+}
+
+@media (min-width: 1180px) {
+  .pelk-services-body .services-flowchart .circle-container .line {
+    width: 1050px;
+  }
+
+  .pelk-body .card-container {
+    column-gap: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pelk-services-body .services-tab-container .tab-dots {
+    display: none;
+  }
+}
+
+@media (max-width: 612px) {
+  //-----------------------------maxin-page-body--------------------------------//
+  .works-banner .mobile-size {
+    width: 290px !important;
+    height: 300px;
+  }
+
+  .works-banner .banner-image-holder img {
+    object-fit: cover;
+    object-position: -57px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .pelk-header .logo {
+    margin-top: 10px;
+  }
+  .pelk-header .menu-icon {
+    height: 16px;
+  }
+  .pelk-services-body {
+    .intro-title {
+      font-size: 26px;
+    }
+    .services-banner {
+      height: 210px;
+      .banner-title {
+        width: 330px;
+        font-size: 24px;
+      }
+    }
+  }
+  .pelk-services-body .services-tab-container .services-description {
+    font-size: 14px;
+    line-height: 2.14;
+    margin: 30px 0 50px;
+  }
+
+  .pelk-services-body .services-tab-container .tab-data {
+    flex-direction: column-reverse;
+  }
+
+  .pelk-services-body .tab-data-container {
+    flex-direction: column;
+  }
+
+  .pelk-services-body .services-tab-container .tab-data .data-title {
+    margin-top: 30px;
+  }
+
+  .pelk-services-body .services-tab-container .tab-data .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pelk-services-body .services-creative .row {
+    flex-wrap: wrap;
+  }
+
+  .pelk-services-body .services-creative .creative-title {
+    margin: 0 0 23px 0;
+    font-size: 22px;
+  }
+
+  .pelk-services-body .services-creative .creative-blank {
+    height: 245px;
+  }
+
+  .pelk-services-body .services-creative {
+    margin-bottom: 50px;
+  }
+
+  .pelk-services-body .services-chart .chart-title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 39px;
+  }
+
+  .pelk-services-body .services-chart .chart-holder {
+    justify-content: center;
+    margin-bottom: 23px;
+    display: block;
+  }
+
+  .pelk-services-body .services-chart .chart-mobile-title {
+    display: block;
+  }
+
+  .pelk-services-body .services-chart .chart-list {
+    display: block;
+  }
+
+  .pelk-services-body .services-flowchart .circle-container {
+    align-items: baseline;
+  }
+
+  .pelk-services-body .services-flowchart .circle-container .line {
+    margin-right: 62px;
+  }
+
+  .pelk-services-body .services-flowchart .flowchart-title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  .pelk-services-body .services-flowchart .rectangle-container {
+    right: 20%;
+  }
+
+  .pelk-services-body .services-flowchart {
+    margin-bottom: 50px;
+  }
+
+  .pelk-services-body .call-pelk {
+    margin: 50px 0;
+  }
+
+  .call-pelk .call-to-action {
+    margin-bottom: 0;
+    align-items: center;
+  }
+
+  .call-pelk .mobile-marginless {
+    margin: 0;
+  }
+
+  .call-pelk .call-to-action .call-title {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .call-pelk .call-text {
+    font-size: 18px !important;
+    max-width: 100% !important;
+    margin: 20px 15px 0px 15px !important;
+    text-align: center !important;
+  }
+
+  .call-pelk .call-to-action .go-to-call {
+    margin-right: 0;
+  }
+
+  .call-pelk .call-to-action .background-highlight {
+    display: block;
+  }
+
+  .pelk-footer .footer-title {
+    font-size: 22px;
+    height: auto;
+  }
+  .pelk-footer .call-us {
+    height: auto;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-bottom: 37px;
+  }
+
+  .pelk-footer .call-info a {
+    height: auto;
+    margin: 10px;
+  }
+
+  .pelk-footer .bottom-menu .navbar .nav-item {
+    margin: 22px 0 0 0;
+    width: 50%;
+  }
+
+  .pelk-footer .bottom-menu .navbar {
+    margin: 0;
+    margin-right: 0;
+    width: 100%;
+    order: 1;
+    padding-bottom: 28px;
+  }
+
+  .pelk-footer .copyright span {
+    display: block;
+    margin: 20px 0 0 0;
+    margin-right: 0;
+  }
+  //-----------------------------work-body--------------------------------//
+  .pelk-works-body .intro-title {
+    font-size: 26px;
+    height: auto;
+  }
+
+  .pelk-works-body .intro-post-title {
+    font-size: 20px;
+    height: auto;
+  }
+
+  .pelk-works-body .intro-description {
+    font-size: 14px;
+    line-height: 2.14;
+  }
+
+  .pelk-works-body .work-container {
+    margin-top: 30px;
+  }
+
+  .pelk-works-body .banner-description .banner-title {
+    font-size: 19px;
+    height: auto;
+  }
+
+  .pelk-works-body .banner-description .banner-post-title {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .pelk-works-body .banner-description .banner-text {
+    font-size: 14px;
+    line-height: 2.14;
+  }
+
+  .pelk-works-body .banner-description {
+    max-width: 320px;
+    height: 330px;
+    padding: 32px 20px 32px 20px;
+    bottom: -200px;
+    height: auto;
+    text-align: center;
+    padding: 13px;
+    bottom: -180px;
+    left: auto;
+    right: auto;
+  }
+
+  .pelk-works-body .work-container .banner {
+    margin-bottom: 250px !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+  }
+
+  .card-container .card:first-child {
+    margin-left: 0;
+  }
+
+  .card-description .card-title {
+    font-size: 19px;
+    height: auto;
+  }
+
+  .card-description .card-post-title {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .card-description {
+    width: 280px;
+  }
+
+  .pelk-works-body .quote h5 {
+    font-size: 18px;
+  }
+
+  .pelk-works-body .quote {
+    margin-bottom: 80px;
+  }
+
+  .pelk-works-body .navigation .navigator span {
+    font-size: 12px;
+  }
+
+  .pelk-works-body .navigation .navigator img {
+    width: 19px;
+    height: 19px;
+  }
+
+  .pelk-works-body .navigation .navigate-next {
+    margin-left: 40px;
+  }
+
+  .pelk-works-body .work-container .last .banner,
+  .pelk-works-body .navigation {
+    margin-bottom: 60px;
+  }
+
+  .co-workers {
+    padding: 30px;
+  }
+
+  .co-workers .co-workers-title {
+    font-size: 22px;
+  }
+
+  .co-workers .co-workers-title {
+    margin-bottom: 30px;
+  }
+
+  //------------------------contact-body-----------------------//
+
+  .pelk-contact-body .contact-info .contact-title {
+    font-size: 26px;
+    height: auto;
+  }
+
+  .pelk-contact-body .contact-info .info-detail dt {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .pelk-contact-body .contact-info .info-detail dd {
+    font-size: 18px;
+    height: auto;
+  }
+
+  .pelk-contact-body .icons a {
+    margin-bottom: 20px;
+    margin-left: 16px;
+  }
+
+  .pelk-contact-body .contact-form fieldset input,
+  .pelk-contact-body .contact-form fieldset textarea {
+    width: 275px !important;
+  }
+
+  .pelk-contact-body .contact-form fieldset input[type="submit"] {
+    width: 127px !important;
+  }
+
+  .pelk-contact-body .contact-form fieldset legend {
+    height: auto;
+    font-size: 17px;
+  }
+
+  .pelk-contact-body .contact-form fieldset label {
+    font-size: 15px;
+  }
+
+  //-------------------------about-body----------------------//
+  .pelk-about-body .about-pelk .about-title {
+    font-size: 26px;
+    height: auto;
+  }
+
+  .pelk-about-body .about-pelk .about-post-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .pelk-about-body .bold {
+    font-size: 22px !important;
+  }
+
+  .pelk-about-body .about-particle-text .particle-text {
+    font-size: 14px;
+    line-height: 2.14;
+  }
+
+  .pelk-about-body .pelk-team .team-title {
+    font-size: 22px;
+    margin: 30px 0;
+  }
+
+  .pelk-about-body .pelk-team .team-member {
+    width: 220px;
+    height: 220px;
+    transform: translate(0, 0) !important;
+    margin: 20px 0 !important;
+  }
+
+  .pelk-about-body .pelk-team .group-2 {
+    margin-top: 0 !important;
+  }
+
+  .pelk-about-body .call-pelk {
+    margin: 50px 0;
+  }
+
+  .pelk-about-body .pelk-team {
+    margin-bottom: 0;
+  }
+  //-------------------------home-page-body-----------------------//
+  .magic-services .magic-services-grid {
+    grid-template-columns: repeat(1, 100%) !important;
+    row-gap: 70px;
+  }
+
+  .works-banner .banner-text-holder {
+    width: 100%;
+  }
+
+  .works-banner .banner-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .works-banner .go-to-works a {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .works-banner .go-to-works .icon-holder {
+    width: 18px;
+    margin: 10px auto 0 auto;
+  }
+
+  .works-banner .go-to-works .icon-holder .icon-org {
+    width: 18px;
+    height: 18px;
+  }
+
+  .works-banner .go-to-works .icon-holder .icon-hover {
+    width: 18px;
+    height: 18px;
+  }
+
+  .works-banner .banner-post-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .works-banner .go-to-works span {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .works-banner .go-to-works img {
+    width: 17px;
+    height: 17px;
+  }
+
+  .works-banner {
+    padding-bottom: 50px;
+  }
+
+  .about-banner {
+    padding: 50px 0;
+  }
+
+  .about-banner .image-holder {
+    margin-bottom: 50px !important;
+  }
+
+  .about-banner .about-title {
+    font-size: 22px;
+    height: auto;
+  }
+
+  .about-banner .about-text {
+    font-size: 18px;
+    line-height: 1.89;
+  }
+
+  .about-banner .about-more span {
+    font-size: 16px;
+  }
+
+  .about-banner .about-more img {
+    width: 19px;
+    height: 19px;
+    margin-right: 30px;
+  }
+
+  .magic-services .magic-title {
+    font-size: 22px;
+  }
+
+  .magic-services {
+    padding: 50px 0;
+  }
+
+  .magic-services .service-title {
+    font-size: 20px;
+    height: auto;
+    margin-top: 18px;
+  }
+
+  .magic-works .magic-works-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .magic-works .more-works span {
+    font-size: 16px;
+  }
+
+  .magic-works .more-works img {
+    width: 19px;
+    height: 19px;
+  }
+
+  .magic-works .more-works {
+    margin: 118px 45px 60px 0;
+  }
+
+  //-------------------------menu-----------------------------//
+  .pelk-menu .logo-container .menu-logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .pelk-menu .logo-container .logo-name {
+    font-size: 22px;
+    height: auto;
+  }
+
+  .pelk-menu .logo-container .logo-description {
+    font-size: 15px;
+    height: auto;
+  }
+
+  .pelk-menu .logo-row {
+    margin-top: 50px;
+  }
+
+  .pelk-menu .logo-row .close-menu {
+    width: 24px;
+    height: 24px;
+  }
+
+  .pelk-menu .main-menu-nav .navbar .nav-link {
+    font-size: 18px;
+  }
+
+  .pelk-menu .main-menu-nav {
+    margin-top: 50px;
+  }
+
+  .pelk-menu .main-menu-nav .navbar .nav-item {
+    margin-bottom: 22px;
+  }
+
+  .pelk-menu .social-icons {
+    margin-top: 30px;
+  }
+
+  .pelk-menu .social-icons a {
+    height: auto;
+    font-size: 23px;
+  }
+
+  .pelk-menu .social-icons .phone {
+    margin: 30px 0 15px 0;
+  }
+
+  .pelk-menu .social-icons .icons a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pelk-menu .main-menu-nav .navbar .active::after {
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  //-------------------------works-body-----------------------//
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    margin-bottom: 113px;
+  }
+
+  .pelk-works-body .work-container .banner {
+    margin-bottom: 80px;
+  }
+
+  .card-container .card:first-child {
+    margin-left: 0 !important;
+  }
+
+  //------------------------contact-body--------------------------//
+
+  .pelk-contact-body .contact-form fieldset input {
+    width: 445px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .pelk-services-body .services-comments {
+    padding: 71px 0 40px 0;
+  }
+  .pelk-services-body .services-comments .comments-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .pelk-services-body .services-comments .comment-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pelk-services-body .services-comments .comment-text {
+    margin: 50px 0 38px 0;
+  }
+
+  .pelk-services-body .services-comments .comment-image {
+    margin: 0 0 16px 0;
+    margin-bottom: 16px;
+    width: 96px;
+    height: 96px;
+  }
+
+  .pelk-services-body .services-comments .comment-user .user-name {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .pelk-services-body .services-comments .comment-user .user-job {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .pelk-services-body .services-comments .comment-text .inner-comment-text {
+    font-size: 16px;
+    line-height: 1.94;
+  }
+
+  .pelk-services-body .services-comments .comments-nav {
+    justify-content: center;
+  }
+
+  .pelk-services-body .services-comments .comments-container {
+    justify-content: center;
+  }
+  //------------------------work-body---------------------------//
+  .card {
+    max-width: 480px;
+    height: 500px;
+  }
+
+  //------------------------contact-body-----------------------//
+
+  .pelk-contact-body .contact-map {
+    margin: 0 auto;
+  }
+
+  //-------------------------about-body----------------------//
+  .pelk-about-body .about-pelk .about-particle {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pelk-about-body .order-2 {
+    order: 1;
+  }
+
+  .pelk-about-body .left-margin,
+  .pelk-about-body .right-margin {
+    align-items: center;
+    margin: 30px 15px !important;
+  }
+
+  //-------------------------main-page-body----------------------//
+  .about-banner .row {
+    flex-wrap: wrap;
+  }
+
+  .about-banner .row .column:first-child {
+    order: 2;
+  }
+
+  .about-banner .image-holder {
+    order: 1;
+    margin: 0 auto;
+    margin-bottom: 74px;
+  }
+
+  .works-banner .banner-image-holder {
+    width: 576px;
+  }
+
+  .magic-services .magic-services-grid {
+    grid-template-columns: repeat(auto-fill, minmax(210px, 50%));
+  }
+
+  .pelk-body .card-container {
+    grid-template-columns: repeat(1, 100%);
+    place-items: center;
+  }
+
+  .pelk-body .magic-works .card {
+    margin: 70px 0;
+  }
+
+  .pelk-body .magic-works .card:first-child {
+    margin-top: 0;
+  }
+
+  .pelk-body .magic-works .card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .pelk-about-body .pelk-team .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pelk-about-body .pelk-team .member-2 {
+    transform: translateX(0);
+  }
+
+  .pelk-about-body .pelk-team .member-1 {
+    transform: translateX(-20px);
+  }
+
+  .pelk-about-body .pelk-team .member-3 {
+    transform: translateX(-20px);
+    margin-top: 58px;
+  }
+
+  .pelk-about-body .pelk-team .member-4 {
+    transform: translateX(0);
+    margin-top: 116px;
+  }
+
+  .pelk-about-body .pelk-team .group-2 {
+    margin-top: 58px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  //--------------------------work-body-------------------------//
+  .card-description {
+    max-width: 320px;
+    min-height: 84px;
+  }
+
+  //------------------------contact-body--------------------------//
+
+  .pelk-contact-body .contact-form fieldset textarea {
+    width: 445px;
+  }
+
+  //-------------------------main-page-body----------------------//
+  .works-banner .row {
+    flex-wrap: wrap;
+  }
+
+  .works-banner .banner-image-holder {
+    order: 1;
+    max-width: 597px !important;
+    margin: 100px auto 0 auto;
+  }
+
+  .works-banner .banner-text-holder {
+    order: 2;
+  }
+
+  .works-banner .banner-title {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .pelk-services-body .services-flowchart .circle {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .pelk-services-body .services-flowchart .circle-container {
+    flex-direction: column;
+  }
+
+  .pelk-services-body .services-flowchart .circle-container .line {
+    width: 1px;
+    height: 771px;
+    top: 153px;
+  }
+
+  .pelk-services-body .services-flowchart .rectangle-container {
+    flex-direction: column;
+    margin-top: 292px;
+  }
+
+  .pelk-services-body .services-flowchart .rectangle {
+    border-right: none;
+    border-top: 1px dashed #b0bec5;
+    height: 150px;
+    width: 148px;
+  }
+
+  .pelk-services-body .services-flowchart .rectangle-container span {
+    bottom: 255px;
+    right: 97px;
+    width: 101px;
+    padding: 12px 8px 11px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    margin: 0 15px;
+  }
+
+  .pelk-services-body nav.tab-nav {
+    display: none;
+  }
+
+  .pelk-services-body nav.tab-dots {
+    display: flex;
+  }
+
+  .pelk-services-body .services-tab-container .tab-data-container {
+    padding: 44px 10px;
+    margin-bottom: 53px;
+    flex-direction: column;
+  }
+
+  //-------------------------works-body----------------------//
+  .card-container .card:first-child {
+    margin-left: 10px;
+  }
+
+  //-------------------------about-body----------------------//
+  .pelk-about-body .left-margin,
+  .pelk-about-body .right-margin {
+    margin: 15px;
+  }
+
+  //-------------------------main-page-body----------------------//
+  .works-banner .banner-image-holder {
+    width: 597px;
+    flex: none;
+  }
+
+  //------------------------card--------------------------------//@at-root
+  .pelk-body .card-container .card:first-child {
+    margin-left: 0;
+  }
+}

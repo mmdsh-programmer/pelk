@@ -1,0 +1,142 @@
+.pelk-about-body {
+  .left-margin {
+    margin-left: 100px;
+    margin-right: auto;
+  }
+  .right-margin {
+    margin-right: 100px;
+    margin-left: auto;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .bold {
+    font-size: 24px !important;
+  }
+  .about-pelk {
+    margin-top: 149px;
+    .about-particle {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .about-title {
+      height: 78px;
+      margin: 0 0 5px;
+      font-family: $fatYekanBakh;
+      font-size: 52px;
+      text-align: center;
+      color: $textColor;
+    }
+    .about-post-title {
+      height: 45px;
+      font-size: 30px;
+      text-align: center;
+      color: $textColor;
+      margin-bottom: 120px;
+    }
+  }
+  .about-particle-image {
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .about-particle-text {
+    .particle-title {
+      height: 30px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: $textColor;
+    }
+    .particle-text {
+      font-size: 18px;
+      line-height: 1.89;
+      color: $textColor;
+      max-width: 485px;
+    }
+  }
+
+  .pelk-team {
+    margin-bottom: 100px;
+    .team-title {
+      height: 39px;
+      margin-bottom: 57px;
+      font-family: $fatYekanBakh;
+      font-size: 26px;
+      color: $textColor;
+      text-align: center;
+      margin-top: 100px;
+    }
+    .team-member {
+      position: relative;
+      width: 293px;
+      height: 297px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      .background-highlight {
+        width: 100%;
+        height: 149px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(60, 60, 60, 0.81));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      .member-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+      }
+      .member-name {
+        height: 27px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .member-job {
+        height: 24px;
+        font-size: 16px;
+        color: #ffffff;
+      }
+      .member-linkedin {
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+    }
+    .member-1 {
+      transform: translateX(-45px);
+      z-index: 1;
+    }
+    .member-2 {
+      transform: translateX(-25px);
+      z-index: 2;
+      margin-top: 58px;
+    }
+    .member-3 {
+      z-index: 3;
+    }
+    .member-4 {
+      transform: translateX(25px);
+      z-index: 4;
+      margin-top: 58px;
+    }
+    .group-2 {
+      margin-top: 36px;
+    }
+  }
+}

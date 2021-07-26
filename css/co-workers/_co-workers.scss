@@ -1,0 +1,25 @@
+.co-workers {
+  width: 100%;
+  background-color: #ede7f6;
+  padding: 80px 0;
+  .co-workers-title {
+    font-family: $fatYekanBakh;
+    font-size: 35px;
+    color: $textColor;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .co-workers-holder {
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    img {
+      width: 1166px;
+      height: 100%;
+    }
+  }
+}

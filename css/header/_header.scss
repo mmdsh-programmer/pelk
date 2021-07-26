@@ -1,0 +1,34 @@
+.pelk-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  .logo {
+    margin-top: 21px;
+    img {
+      width: 88px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  .menu-icon {
+    margin-right: auto;
+    height: 0;
+    cursor: pointer;
+    &:hover {
+      svg g {
+        fill: #7f10e9;
+      }
+    }
+    svg {
+      g {
+        transform: none;
+        transition: all 0.4s;
+        fill: #263238;
+      }
+    }
+  }
+  .menu-icon img {
+    width: 20px;
+  }
+}
